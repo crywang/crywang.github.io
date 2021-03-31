@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0pt none;
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0pt;
+    outline-color: invert;
+    outline-style: none;
+    outline-width: 0pt;
+    padding: 0pt;
+    vertical-align: baseline;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+h2 {
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+a {
+    /*color: #034d99 ;*/
+    color: #034d99;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #FF5151;
+    text-decoration: none;
+}
+
+* {
+    margin: 0pt;
+    padding: 0pt;
+}
+
+body {
+    position: relative;
+    margin: 2em auto 2em auto;
+    width: 835px;
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #FFFFFF;
+    /*dddddd*/
+}
+
+strong {
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1rem;
+}
+
+li {
+    padding-bottom: 0.5em;
+}
+
+img {
+    border: none;
+}
+
+.paper {
+    margin: 0.25rem 0;
+}
+
+.paper p {
+    line-height: 18px;
+}
+
+pre, code {
+    font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+    margin: 1em 0;
+    padding: 0;
+}
+.awards li span{
+    float: right;
+}
