@@ -25,21 +25,21 @@ html {
 .box {
     justify-content: space-around;
     margin: 1rem 0;
-    padding: 1rem;
+    padding: 0.75rem 1.25rem;
     border-radius: 10px;
     border: 1px solid #ddd;
 }
 
 h2 {
     font-family: Georgia, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
 h3 {
     font-family: Georgia, Helvetica, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 0.25rem;
 }
@@ -74,12 +74,13 @@ img {
     border: none;
 }
 
-.paper {
-    margin: 0.25rem 0;
+.item {
+    margin: 0.5rem 0;
+    font-size: 1.15rem;
 }
 
-.paper p {
-    line-height: 1.25rem;
+.item p {
+    line-height: 1.4rem;
 }
 
 pre, code {
@@ -96,7 +97,7 @@ pre, code {
 }
 
 .portrait {
-    max-height: 220px;
+    max-height: 248px;
     object-fit: contain;
 }
 
@@ -106,13 +107,21 @@ pre, code {
 
 .name {
     line-height: 150%;
-    font-size: 1.75rem;
+    font-size: 2rem;
     margin-bottom: 0.75rem;
     text-align: center;
 }
 
+.names {
+    font-style: italic;
+}
+
 .status {
     text-align: center;
+}
+
+.atag{
+    margin-left: 0.75rem;
 }
 
 @media (min-width: 1200px) {
@@ -126,9 +135,10 @@ pre, code {
         text-align: left;
     }
     html {
-        font-size: 14px;
+        font-size: 16px;
     }
     body {
         min-width: 500px;
+        max-width: 1000px;
     }
 }
