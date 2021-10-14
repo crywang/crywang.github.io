@@ -1,19 +1,15 @@
-/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-    border: 0pt none;
-    font-family: Georgia, Helvetica, sans-serif;
-    font-size: 100%;
-    font-style: inherit;
-    font-weight: inherit;
-    margin: 0pt;
-    outline-color: invert;
-    outline-style: none;
-    outline-width: 0pt;
-    padding: 0pt;
-    vertical-align: baseline;
-} */
-
 html {
-    font-size: 20px;
+    font-size: 28px;
+}
+
+body {
+    margin: 1rem auto;
+    max-width: 94%;
+    min-width: 720px;
+}
+
+body * {
+    max-height: 100%;
 }
 
 * {
@@ -54,12 +50,6 @@ a:focus, a:hover {
     text-decoration: none;
 }
 
-body {
-    margin: 2em auto 2em auto;
-    max-width: 835px;
-    min-width: 720px;
-}
-
 .column-container {
     display: flex;
     flex-direction: column;
@@ -91,9 +81,15 @@ pre, code {
 
 .awards div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     line-height: 1.4rem;
+    border-bottom: 1px grey solid;
+    padding: 0.5rem 0;
+}
+
+.award_right{
+    text-align: right;
 }
 
 .portrait {
@@ -120,7 +116,7 @@ pre, code {
     text-align: center;
 }
 
-.atag{
+.atag {
     margin-left: 0.75rem;
 }
 
@@ -140,5 +136,10 @@ pre, code {
     body {
         min-width: 500px;
         max-width: 1000px;
+    }
+    .awards div {
+        flex-direction: row;
+        padding: initial;
+        border-bottom: initial;
     }
 }
